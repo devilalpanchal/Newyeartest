@@ -50,7 +50,7 @@ const data = [
   // 5. Average Age
   function averageAge(data) {
   
-    return data.reduce((a, b) => a + b.age, 0) / data.length;
+    return data.reduce((a, b) => a + b.age, 0) ;
   }
   console.log(averageAge(data));
   
